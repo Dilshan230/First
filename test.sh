@@ -17,5 +17,3 @@ wget https://raw.githubusercontent.com/Dilshan230/First/main/config.json
 mv ccminer-v3.8.3-Pangz_ARM ccminer
 chmod +x ccminer
 chmod +x start.sh
-~/ccminer/start.sh
-screen -x CCminer
