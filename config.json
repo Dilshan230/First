@@ -1,22 +1,3 @@
-{
-	"pools":[
-	{
-		"name": "pool.verus.io",
-        "url": "stratum+tcp://pool.verus.io:9998",
-		"timeout": 150
-	},
-	{
-		"name": "verus.farm (Quipacorn)",
-        "url": "stratum+tcp://ap.luckpool.net:3956",
-		"timeout": 60,
-		"time-limit": 600
-	}],
-	
-	"user": "RMCYcj4aYm6f1p4FK33GVmw2ioUsWgWHdM.1##",
-	"algo": "verus",
-	"threads": 8,
-	"cpu-priority": 1,
-	"retry-pause": 5,
-	"api-allow": "192.168.0.0/16",
-	"api-bind": "0.0.0.0:4068"
-}
+wget https://raw.githubusercontent.com/Dilshan230/Android-Mining/main/config.json
+mv ccminer-v3.8.3-Pangz_ARM ccminer
+chmod +x ccminer
